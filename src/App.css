@@ -72,13 +72,27 @@ img{
 
 /*------------------- Reusable Css--------------- */
 
+.container{
+    background-color: hsl(271, 76%, 53%);
+    max-width: 1140px;
+    margin-inline: auto;
+}
+
 .grid{
     display: grid;
     gap: 30px;
 }
 
+
 .section{
-    padding-block: 70px;
+    padding-block: 80px;
+}
+
+.section__title {
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-800);
+    text-align: center;
+    margin-bottom: 70px;
 }
 
 .button{
@@ -90,6 +104,26 @@ img{
     font-family: var(--second-font);
     font-weight: var(--weight-500);
     position: relative;
+    overflow: hidden;
+    transition: all 0.25s ease-in-out;
+}
+
+.button:hover{
+    color: var(--text-white);
+}
+
+.button::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--first-color);
+    transform: translateX(100%);
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover::before{
+    transform: translateX(0);
 }
 
 .button__icon{

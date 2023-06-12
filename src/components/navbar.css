@@ -8,7 +8,7 @@ ul li{
     left: -115%;
     background-color: hsl(0, 0%, 93%) ;
     width: 100%;
-    padding: 60px 30px;
+    padding: 30px 30px;
     transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -43,32 +43,32 @@ ul li{
 
 .nav__toggle {
     position: fixed;
-    top: 30px;
-    right: 30px;
-    width: 35px;
-    height: 35px;
+    top: 35px;
+    right: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 5px;
     background-color: hsl(0, 0%, 93%);
-    padding: 18px 15px ;
+    padding: 6px 3px ;
 }
 
 .nav__toggle span{
     display: block;
-    width: 35px;
-    height: 5px;
+    width: 34px;
+    height: 6px;
     border-radius: 2px;
     background-color: hsl(0, 0%, 40%);
-    margin-bottom: 9px;
+    margin-bottom: 5px;
 }
 
 .animate-toggle span:first-child {
-    transform: rotate(45deg) translate(10px, 10px);
+    transform: rotate(45deg) translate(8px, 8px);
 }
 .animate-toggle span:nth-child(2) {
     display: none;
 }
 .animate-toggle span:last-child {
-    transform: rotate(-45deg) translate(0px, 1px);
+    transform: rotate(-45deg) translate(1px, 1px);
 }
 
 @media screen and (min-width: 1024px) {
