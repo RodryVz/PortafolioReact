@@ -73,10 +73,10 @@ img{
 /*------------------- Reusable Css--------------- */
 
 .container{
-    background-color: hsl(271, 76%, 53%);
     max-width: 1140px;
     margin-inline: auto;
 }
+
 
 .grid{
     display: grid;
