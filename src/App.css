@@ -33,6 +33,14 @@
     --weight-900: 900;
 }
 
+.dark-theme{
+    --title-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 46%);
+    --body-color: hsl(0, 0%, 4%);
+    --container-color: hsl(0, 1%, 17%);
+    --border-color: hsl(0, 0%, 15%);
+}
+
 *{
     margin: 0;
     padding: 0;

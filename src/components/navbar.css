@@ -6,7 +6,7 @@ ul li{
     position: fixed;
     inset-block: 0;
     left: -115%;
-    background-color: hsl(0, 0%, 93%) ;
+    background-color:var(--container-color) ;
     width: 100%;
     padding: 30px 30px;
     transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -20,15 +20,19 @@ ul li{
     display: flex;
     align-items: center;
     column-gap: 24px;
-    border-bottom: 1px solid hsl(0, 0%, 78%);
+    border-bottom: 1px solid var(--border-color);
     padding-block: 14px;
     text-decoration: none;
     list-style: none;
 }
 
+.dark-theme .nav__link{
+    border-color: hsl(0, 0%,20%);
+}
+
 .nav__icon,
 .nav__name{
-    color: hsl(0, 0%, 40%);
+    color: var(--title-color);
     font-size: 24px;
 }
 
@@ -38,7 +42,7 @@ ul li{
 
 .active-nav .nav__icon,
 .active-nav .nav__name{
-    color: hsl(271, 76%, 53%);
+    color: var(--first-color);
 }
 
 .nav__toggle {
@@ -48,7 +52,7 @@ ul li{
     width: 40px;
     height: 40px;
     border-radius: 5px;
-    background-color: hsl(0, 0%, 93%);
+    background-color: var(--container-color);
     padding: 6px 3px ;
 }
 
@@ -57,7 +61,7 @@ ul li{
     width: 34px;
     height: 6px;
     border-radius: 2px;
-    background-color: hsl(0, 0%, 40%);
+    background-color: var(--title-color);
     margin-bottom: 5px;
 }
 
@@ -95,7 +99,7 @@ ul li{
     .nav__link{
         padding: 0;
         border-bottom: none;
-        background-color: hsl(0, 0%, 93%);
+        background-color: var(--container-color);
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -109,9 +113,9 @@ ul li{
 
     .nav__name{
         position: absolute;
-        top: 10;
+
         right: 0;
-        background-color: hsl(271, 76%, 53%);
+        background-color: var(--first-color);
         height: 100%;
         line-height: 50px;
         padding-inline: 30px 25px;
@@ -134,7 +138,7 @@ ul li{
 
     .nav__link:hover,
     .active-nav{
-        background-color: hsl(271, 76%, 53%);
+        background-color:var(--first-color);
     }
 
     .nav__link:hover .nav__icon,
