@@ -5,7 +5,8 @@ import Themes from "./components/Themes";
 import Home from "./page/home/Home"
 import About from "./page/about/About"
 import Portfolio from "./page/portfolio/Portfolio"
-import Contact from "./page/contact/Contact"
+import Contact from "./page/contact/Contact";
+import "./index.css"
 
 
 
