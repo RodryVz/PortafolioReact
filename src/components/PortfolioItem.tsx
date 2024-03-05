@@ -2,17 +2,8 @@ import { useState } from 'react';
 import Close from '../assets/close.svg';
 
 
-interface PortfolioItemProps {
-    img: string;
-    title: string;
-    details: {
-        icon: string;
-        title: string;
-        desc: string;
-    }[];
-}
 
-function PortfolioItem({ img, title, details }: PortfolioItemProps) {
+function PortfolioItem({ img, title, details }) {
     const [modal, setModal] = useState(false);
 
     const toggleModal = () => {

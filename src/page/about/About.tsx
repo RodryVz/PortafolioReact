@@ -1,11 +1,12 @@
-import React from 'react';
 import Info from '../../components/Info';
 import Stats from '../../components/Stats';
 import Skills from '../../components/Skills';
+{/*
 import { resume } from '../../data';
 import ResumeItem from '../../components/ResumeItem';
+ */}
 import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/steve-Cv.pdf';
+import CV from '../../assets/Curriculum Frontend Rodri.pdf';
 import './about.css';
 
 const About = () => {
@@ -44,9 +45,9 @@ const About = () => {
                     <Skills />
                 </div>
             </section>
-
+{/*
             <div className='separator'></div>
-
+Sección "Experiencia y Educación"
             <section className='resume'>
                 <h3 className='section__subtitle subtitle__center'>Experiencia y Educacion</h3>
 
@@ -68,6 +69,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
+*/}
         </main>
     );
 };

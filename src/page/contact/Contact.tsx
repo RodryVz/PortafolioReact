@@ -4,7 +4,7 @@ import {
     FaLinkedin,
     FaGithub,
 } from 'react-icons/fa';
-import { FiSend } from 'react-icons/fi';
+
 import "./contact.css";
 import "../../App.css";
 import { useRef, useState } from 'react';
@@ -40,7 +40,7 @@ export const ContactUs = () => {
                 <div className='form__input-div'>
                     <input
                         type="text"
-                        placeholder='Tu nombre'
+                        placeholder='Your name'
                         className='form__control'
                         name="user_name"
                     />
@@ -49,7 +49,7 @@ export const ContactUs = () => {
                 <div className='form__input-div'>
                     <input
                         type="email"
-                        placeholder='Tu correo electrónico'
+                        placeholder='Your email'
                         className='form__control'
                         name="user_email"
                     />
@@ -58,20 +58,18 @@ export const ContactUs = () => {
 
             <div className='form__input-div'>
                 <textarea
-                    placeholder='Tu mensaje'
+                    placeholder='Your message'
                     className='form__control textarea'
                     name="message"
                 ></textarea>
             </div>
 
-            <button className='button' type="submit">
-                Enviar mensaje
-                <span className='button__icon contact__button-icon'>
-                    <FiSend />
-                </span>
+            <button className='button1'>
+                Send message
+                
             </button>
 
-            {messageSent && <p className="message-sent">¡Mensaje enviado!</p>}
+            {messageSent && <p className="message-sent" >¡Mensaje enviado!</p>}
         </form>
     );
 };
@@ -80,24 +78,24 @@ const Contact = () => {
     return (
         <section className='contact section'>
             <h2 className='section__title'>
-                Ponte en <span>contacto</span>
+                Get in <span>touch</span>
             </h2>
 
             <div className='contact__container conteiner grid'>
                 <div className='contact__data'>
-                    <h3 className='contact__title'>No seas tímido</h3>
+                    <h3 className='contact__title'>Do not be shy</h3>
 
                     <p className='contact__description'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Laborum molestias quasi necessitatibus sequi qui dolore culpa
-                        fugiat officia unde repudiandae vero minima ex recusandae.
+                        "Write to me or call me, 
+                        I will gladly answer each of your doubts and questions.
+                        I am at your disposal."
                     </p>
 
                     <div className='contact__info'>
                         <div className='info__item'>
                             <FaEnvelopeOpen className='info__icon' />
                             <div>
-                                <span className='info__title'>Envíame un correo </span>
+                                <span className='info__title'>Send me an email</span>
                                 <h4 className='info__desc'>rodry_valenzuela@hotmail.com</h4>
                             </div>
                         </div>
@@ -105,22 +103,18 @@ const Contact = () => {
                             <FaPhoneSquareAlt className='info__icon' />
 
                             <div>
-                                <span className='info__title'>Llámame </span>
+                                <span className='info__title'>Call me</span>
                                 <h4 className='info__desc'>+54 3624-968347</h4>
                             </div>
                         </div>
                     </div>
                     <div className='contact__socials'>
-                        <a href="https://linkedin.com" className='contact__social-link'>
+                        <a href="http://linkedin.com/in/rodrigo-valenzuela-742124231" className='contact__social-link' target='_blank'>
                             <FaLinkedin />
                         </a>
 
-                        <a href="https://github.com" className='contact__social-link'>
+                        <a href="https://github.com/RodryVz" className='contact__social-link' target='_blank'>
                             <FaGithub />
-                        </a>
-
-                        <a href="https://facebook.com" className='contact__social-link'>
-                            <FaLinkedin />
                         </a>
                     </div>
                 </div>
@@ -130,4 +124,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default Contact

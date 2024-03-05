@@ -9,12 +9,12 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from './assets/project-1.png';
+import Work2 from './assets/project-2.png';
+import Work3 from './assets/project-3.png';
+import Work4 from './assets/project-4.png';
+import Work5 from './assets/project-5.png';
+import Work6 from './assets/project-6.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Rodrigo',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Valenzuela',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '30 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Argentina',
   },
 
   {
@@ -91,57 +91,57 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Chaco',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+54-3624-968347',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'Rodry_valenzuela@hotmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'Linkedin : ',
+    description: 'rodrigo-valenzuela',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'Spanish, Basic English',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '1+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '6+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: '7+',
+    title: 'Technologies <br /> worked',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '2+',
+    title: ' Completed <br /> courses',
   },
 ];
 
@@ -205,13 +205,13 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '75',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '60',
   },
 
   {
@@ -222,32 +222,32 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
-  },
-
-  {
-    id: 5,
-    title: 'Wordpress',
-    percentage: '95',
-  },
-
-  {
-    id: 6,
-    title: 'Jquery',
+    title: 'TypeScript',
     percentage: '50',
   },
 
   {
-    id: 7,
-    title: 'Angular',
+    id: 5,
+    title: 'Python',
+    percentage: '50',
+  },
+
+  {
+    id: 6,
+    title: 'Bootstrap',
     percentage: '65',
+  },
+
+  {
+    id: 7,
+    title: 'Git',
+    percentage: '70',
   },
 
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '80',
   },
 ];
 
@@ -255,27 +255,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'WebSite',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'WebSite',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: '-',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React Js, TypeScript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'rodryvz.github.io/Website_Gym/',
       },
     ],
   },
@@ -283,17 +283,73 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Aplicacion Web',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Aplicacion',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS ',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'rodryvz.github.io/Api_rickandMorty/',
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work3,
+    title: 'Aplicacion Web',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Aplicacion Web',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Python, Django',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '-',
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    img: Work4,
+    title: 'Aplicacion Web',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Aplicacion Web',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
       },
       {
         icon: <FaCode />,
@@ -303,63 +359,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 3,
-    img: Work3,
-    title: 'Video Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: 'Video Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'rodryvz.github.io/CarritoCompras/',
       },
     ],
   },
@@ -367,23 +367,23 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Aplicacion Web',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Aplicacion Web',
       },
       {
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Valenzuela Rodrigo',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'React JS,',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: '-',
       },
     ],
   },
@@ -391,27 +391,27 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Aplicacion Web',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Aplicacion Web',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: '-',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'rodryvz.github.io/Anotador-de-tarea/',
       },
     ],
   },

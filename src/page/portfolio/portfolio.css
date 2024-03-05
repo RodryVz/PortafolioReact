@@ -7,10 +7,12 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7); /* Agregamos sombra */
+    transition: box-shadow 0.3s ease-in-out; /* Agregamos transición suave */
 }
 
 .portfolio__img {
-    height: 250px;
+    height: 260px;
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
@@ -40,6 +42,7 @@
 
 .portfolio__item:hover .portfolio__title{
     transform: translateY(0);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio__modal{
