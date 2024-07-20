@@ -1,4 +1,4 @@
-
+import './Info.css';
 import { personalInfo } from '../data';
 
 const Info = () => {
