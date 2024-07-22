@@ -38,7 +38,6 @@ function PortfolioItem({ img, title, details }) {
                                 );
                             })}
                         </ul>
-
                         <img src={img} alt="" className='modal__img' />
                     </div>
                 </div>

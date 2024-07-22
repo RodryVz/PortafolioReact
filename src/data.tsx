@@ -122,13 +122,13 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '1+',
+    no: '2+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '6+',
+    no: '7+',
     title: 'Completed <br /> Projects',
   },
 
@@ -275,14 +275,41 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'rodryvz.github.io/Website_Gym/',
+        desc: <a href="https://inmobiliariass.netlify.app/" target="_blank" rel="noopener noreferrer">inmobiliariass.netlify.app/</a>,
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work2,
+    title: 'WebSite',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'WebSite',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js, TypeScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://rodryvz.github.io/Website_Gym/" target="_blank" rel="noopener noreferrer">rodryvz.github.io/Website_Gym/</a>,
       },
     ],
   },
 
   {
-    id: 2,
-    img: Work2,
+    id: 3,
+    img: Work3,
     title: 'Aplicacion Web',
     details: [
       {
@@ -303,14 +330,14 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'rodryvz.github.io/Api_rickandMorty/',
+        desc: <a href="https://porfolio-rodri.netlify.app/" target="_blank" rel="noopener noreferrer">porfolio-rodri.netlify.app/</a>,
       },
     ],
   },
 
   {
-    id: 3,
-    img: Work3,
+    id: 4,
+    img: Work4,
     title: 'Aplicacion Web',
     details: [
       {
@@ -337,8 +364,8 @@ export const portfolio = [
   },
 
   {
-    id: 4,
-    img: Work4,
+    id: 5,
+    img: Work5,
     title: 'Aplicacion Web',
     details: [
       {
@@ -359,35 +386,10 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'rodryvz.github.io/CarritoCompras/',
+        desc: <a href="https://rodryvz.github.io/Api_rickandMorty/" target="_blank" rel="noopener noreferrer">rodryvz.github.io/Api_rickandMorty/</a>,
       },
     ],
   },
-
-  {
-    id: 5,
-    img: Work5,
-    title: 'Aplicacion Web',
-    details: [
-      {
-        title: 'Project : ',
-        desc: 'Aplicacion Web',
-      },
-      {
-        title: 'Client : ',
-        desc: 'Valenzuela Rodrigo',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS,',
-      },
-      {
-        title: 'Preview : ',
-        desc: '-',
-      },
-    ],
-  },
-
   {
     id: 6,
     img: Work6,
@@ -411,10 +413,13 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'rodryvz.github.io/Anotador-de-tarea/',
+        desc: <a href="https://rodryvz.github.io/CarritoCompras/" target="_blank" rel="noopener noreferrer">rodryvz.github.io/CarritoCompras/</a>,
       },
     ],
   },
+
+  
+
 ];
 
 export const themes = [
