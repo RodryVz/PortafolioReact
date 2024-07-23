@@ -83,7 +83,7 @@ const Contact = () => {
 
             <div className='contact__container conteiner grid'>
                 <div className='contact__data'>
-                    <h3 className='contact__title'>Do not be shy</h3>
+                    <h3 className='contact__title'>Don`t hesitate to contact me</h3>
 
                     <p className='contact__description'>
                         "Write to me or call me, 
