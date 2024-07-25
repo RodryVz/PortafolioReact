@@ -4,7 +4,6 @@ import { links } from '../data';
 import "./navbar.css";
 import { useState } from 'react';
 
-
 function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
     return (
