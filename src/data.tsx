@@ -15,6 +15,9 @@ import Work3 from './assets/project-3.png';
 import Work4 from './assets/project-4.png';
 import Work5 from './assets/project-5.png';
 import Work6 from './assets/project-6.png';
+import Work7 from './assets/project-7.png';
+import Work8 from './assets/project-8.png';
+
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -234,8 +237,8 @@ export const skills = [
 
   {
     id: 6,
-    title: 'Bootstrap',
-    percentage: '65',
+    title: 'Next Js.',
+    percentage: '50',
   },
 
   {
@@ -254,6 +257,60 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    img: Work7,
+    title: 'Chat Bot IA',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Chat Bot con IA',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Next Js, TypeScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://mobile-ai.netlify.app" target="_blank" rel="noopener noreferrer">Chat bot "Mobile AI"</a>,
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work8,
+    title: 'WebSite',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'WebSite',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js, TypeScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://oficlic.netlify.app" target="_blank" rel="noopener noreferrer">Web Oficlic</a>,
+      },
+    ],
+  },
+  {
+    id: 3,
     img: Work1,
     title: 'WebSite',
     details: [
@@ -275,12 +332,12 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: <a href="https://inmobiliariass.netlify.app/" target="_blank" rel="noopener noreferrer">inmobiliariass.netlify.app/</a>,
+        desc: <a href="https://inmobiliariass.netlify.app/" target="_blank" rel="noopener noreferrer">inmobiliarias web/</a>,
       },
     ],
   },
   {
-    id: 2,
+    id: 4,
     img: Work2,
     title: 'WebSite',
     details: [
@@ -302,13 +359,13 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: <a href="https://rodryvz.github.io/Website_Gym/" target="_blank" rel="noopener noreferrer">rodryvz.github.io/Website_Gym/</a>,
+        desc: <a href="https://rodryvz.github.io/Website_Gym/" target="_blank" rel="noopener noreferrer">Gym web</a>,
       },
     ],
   },
 
   {
-    id: 3,
+    id: 5,
     img: Work3,
     title: 'Aplicacion Web',
     details: [
@@ -330,13 +387,13 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: <a href="https://porfolio-rodri.netlify.app/" target="_blank" rel="noopener noreferrer">porfolio-rodri.netlify.app/</a>,
+        desc: <a href="https://porfolio-rodri.netlify.app/" target="_blank" rel="noopener noreferrer">Porfolio personal</a>,
       },
     ],
   },
 
   {
-    id: 4,
+    id: 6,
     img: Work4,
     title: 'Aplicacion Web',
     details: [
@@ -364,7 +421,7 @@ export const portfolio = [
   },
 
   {
-    id: 5,
+    id: 7,
     img: Work5,
     title: 'Aplicacion Web',
     details: [
@@ -386,12 +443,12 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: <a href="https://rodryvz.github.io/Api_rickandMorty/" target="_blank" rel="noopener noreferrer">rodryvz.github.io/Api_rickandMorty/</a>,
+        desc: <a href="https://rodryvz.github.io/Api_rickandMorty/" target="_blank" rel="noopener noreferrer">App RickandMorty/</a>,
       },
     ],
   },
   {
-    id: 6,
+    id: 8,
     img: Work6,
     title: 'Aplicacion Web',
     details: [
@@ -413,7 +470,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: <a href="https://rodryvz.github.io/CarritoCompras/" target="_blank" rel="noopener noreferrer">rodryvz.github.io/CarritoCompras/</a>,
+        desc: <a href="https://rodryvz.github.io/CarritoCompras/" target="_blank" rel="noopener noreferrer">CarritoCompras</a>,
       },
     ],
   },

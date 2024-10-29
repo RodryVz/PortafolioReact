@@ -6,7 +6,7 @@ import { resume } from '../../data';
 import ResumeItem from '../../components/ResumeItem';
  */}
 import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/Curriculum Profesional 2024 Rodrigo.pdf';
+import CV from '../../assets/Cv_Ingles_Rodrigo Valenzuela.pdf';
 import './about.css'; 
 
 const About = () => {

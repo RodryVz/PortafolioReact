@@ -17,11 +17,11 @@
     transition: transform 0.3s ease;
 }
 
-.home__img-container:hover .home__img {
+.homeimg-container:hover .homeimg {
     transform: scale(1.02);
 }
 
-.home__img-overlay {
+.homeimg-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@
     height: 100%;
     z-index: 1;
 }
-.home__data {
+.homedata {
     max-width: 650px;
     margin-inline: auto;
     padding-top: 10px;
@@ -59,4 +59,39 @@
     margin-block: 20px 35px;
     font-size: 1.1rem;
     color: #555;
+}
+@media (min-width: 768px) {
+    .home {
+        grid-template-columns: 4.32fr 7.68fr;
+        padding: 50px;
+    }
+
+    .home__img-container {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .home__data {
+        max-width: 650px;
+        padding-top: 10px;
+    }
+
+    .home__title {
+        font-size: 3.7rem;
+        padding-bottom: 30px;
+    }
+
+    .home__title span {
+        margin-bottom: 10px;
+    }
+
+    .home__h2 {
+        font-size: 2.6rem;
+        margin-bottom: 20px;
+    }
+
+    .home__description {
+        margin-block: 20px 35px;
+        font-size: 1.1rem;
+    }
 }
