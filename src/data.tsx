@@ -17,6 +17,8 @@ import Work5 from './assets/project-5.png';
 import Work6 from './assets/project-6.png';
 import Work7 from './assets/project-7.png';
 import Work8 from './assets/project-8.png';
+import Work9 from './assets/project-9.png';
+
 
 
 import Theme1 from './assets/purple.png';
@@ -257,6 +259,33 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    img: Work9,
+    title: 'WebSite financiera',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Web site financiera',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js., TypeScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://creditosplus.netlify.app/" target="_blank" rel="noopener noreferrer">Web site financiera</a>,
+      },
+    ],
+  },
+  {
+    id: 2,
     img: Work7,
     title: 'Chat Bot IA',
     details: [
@@ -282,8 +311,9 @@ export const portfolio = [
       },
     ],
   },
+  
   {
-    id: 2,
+    id: 3,
     img: Work8,
     title: 'WebSite',
     details: [
@@ -310,7 +340,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: Work1,
     title: 'WebSite',
     details: [
@@ -337,7 +367,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: Work2,
     title: 'WebSite',
     details: [
@@ -365,7 +395,7 @@ export const portfolio = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: Work3,
     title: 'Aplicacion Web',
     details: [
@@ -393,7 +423,7 @@ export const portfolio = [
   },
 
   {
-    id: 6,
+    id: 7,
     img: Work4,
     title: 'Aplicacion Web',
     details: [
@@ -421,7 +451,7 @@ export const portfolio = [
   },
 
   {
-    id: 7,
+    id: 8,
     img: Work5,
     title: 'Aplicacion Web',
     details: [
@@ -448,7 +478,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     img: Work6,
     title: 'Aplicacion Web',
     details: [
