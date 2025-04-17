@@ -18,6 +18,8 @@ import Work6 from './assets/project-6.png';
 import Work7 from './assets/project-7.png';
 import Work8 from './assets/project-8.png';
 import Work9 from './assets/project-9.png';
+import Work10 from './assets/project-10.png';
+import Work11 from './assets/project-11.png';
 
 
 
@@ -259,6 +261,60 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    img: Work11,
+    title: 'Flappy Bird',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Juego Flappy Bird',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: '-',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Javascript, Html, Css',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://bird-psi-six.vercel.app/" target="_blank" rel="noopener noreferrer">Juego Flappy Bird</a>,
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work10,
+    title: 'Web Oficlic',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Web site Oficlic',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Startup Oficlic',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js., TypeScript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href="https://oficlicapp.netlify.app/" target="_blank" rel="noopener noreferrer">Web site Oficlic</a>,
+      },
+    ],
+  },
+  {
+    id: 3,
     img: Work9,
     title: 'WebSite financiera',
     details: [
@@ -285,7 +341,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     img: Work7,
     title: 'Chat Bot IA',
     details: [
@@ -311,36 +367,8 @@ export const portfolio = [
       },
     ],
   },
-  
   {
-    id: 3,
-    img: Work8,
-    title: 'WebSite',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'WebSite',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: '-',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React Js, TypeScript',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: <a href="https://oficlic.netlify.app" target="_blank" rel="noopener noreferrer">Web Oficlic</a>,
-      },
-    ],
-  },
-  {
-    id: 4,
+    id: 5,
     img: Work1,
     title: 'WebSite',
     details: [
@@ -367,7 +395,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     img: Work2,
     title: 'WebSite',
     details: [
@@ -395,7 +423,7 @@ export const portfolio = [
   },
 
   {
-    id: 6,
+    id: 7,
     img: Work3,
     title: 'Aplicacion Web',
     details: [
@@ -423,7 +451,7 @@ export const portfolio = [
   },
 
   {
-    id: 7,
+    id: 8,
     img: Work4,
     title: 'Aplicacion Web',
     details: [
@@ -451,7 +479,7 @@ export const portfolio = [
   },
 
   {
-    id: 8,
+    id: 9,
     img: Work5,
     title: 'Aplicacion Web',
     details: [
@@ -478,7 +506,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     img: Work6,
     title: 'Aplicacion Web',
     details: [
