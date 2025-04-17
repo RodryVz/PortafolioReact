@@ -16,7 +16,6 @@ import Work4 from './assets/project-4.png';
 import Work5 from './assets/project-5.png';
 import Work6 from './assets/project-6.png';
 import Work7 from './assets/project-7.png';
-import Work8 from './assets/project-8.png';
 import Work9 from './assets/project-9.png';
 import Work10 from './assets/project-10.png';
 import Work11 from './assets/project-11.png';
